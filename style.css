@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a1c4fd);
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(0,0,0,0.3);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#timer {
+  font-size: 60px;
+  margin-top: 20px;
+}
